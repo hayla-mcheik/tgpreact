@@ -1,0 +1,32 @@
+.notFoundBg {
+    background-image: url('../../../src/assets/Background404.png');
+    display: flex;
+    flex-direction: column;
+}
+
+.notFound-cat {
+    max-width: 30%;
+}
+
+.gg:hover {
+    margin: 0 auto;
+    display: block;
+    background-color: #00A21A;
+    color: #fff;
+    padding: 8px 16px;
+    border: 1px solid #00A21A;
+    transition: opacity 0.3s ease-in-out;
+    cursor: none;
+}
+
+.gg {
+    margin: 0 auto;
+    display: block;
+    padding: 8px 16px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid white
+  }
+
+
+

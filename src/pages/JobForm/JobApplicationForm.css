@@ -1,0 +1,159 @@
+.jobs-wrapper {
+  background-color: #232323;
+  padding: 4%;
+}
+
+.job-application-form {
+  display: block;
+  margin: 5% auto;
+  width: 60%;
+  background-color: #232323;
+  /* text-align: center; */
+}
+
+
+
+.jobs-txt {
+  color: white;
+  text-align: justify;
+}
+
+.plz-upload {
+  color: #afacac
+}
+
+.plz-upload-cv {
+  color: white;
+  text-align: center;
+}
+
+.cv {
+  padding: 8%;
+}
+
+
+.progress-bar {
+  width: 100%;
+  height: 5px;
+  background-color: #e2e0e0;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.progress {
+  height: 100%;
+  background-color: #27E646;
+  transition: width 0.3s ease-in-out;
+}
+
+.progress-label {
+  position: absolute;
+  top: -25px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 14px;
+}
+
+.form-content {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.form-content.fade-in {
+  opacity: 1;
+}
+
+.form-content.fade-out {
+  opacity: 0;
+}
+
+.previous-button,
+.next-button {
+  background-color: #ed9d09;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  transition: opacity 0.3s ease-in-out;
+  cursor: none;
+}
+
+.breadc-jobs {
+  color: rgb(113, 112, 112) !important;
+}
+
+.previous-button {
+  margin-right: 8px;
+  cursor: none;
+}
+
+.previous-button:hover {
+  background-color: #ebb042;
+  cursor: none;
+}
+
+.next-button {
+  background-color: green;
+}
+
+.sb {
+  background-color: rgb(220, 62, 18);
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  transition: opacity 0.3s ease-in-out;
+  cursor: none;
+}
+
+.next-button:hover {
+  opacity: 0.8;
+}
+
+.thank-you {
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+
+
+.job-application-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.dashed-cv {
+  border: 1px dashed #afacac;
+  padding: 2%;
+  margin: auto 5%;
+  text-align: center !important;
+}
+
+.plz-upload {
+  color: #d2cccc;
+}
+
+.ptt {
+  text-align: center;
+}
+
+
+/* Add responsive styles for tablet and mobile */
+@media only screen and (max-width: 768px) {
+  .job-application-form {
+    max-width: 90%;
+  }
+
+  .job-application-form {
+    width: 76%;
+  }
+
+  .ptt h5, .step h5 {
+    font-size: 1.1rem;
+  }
+}
+

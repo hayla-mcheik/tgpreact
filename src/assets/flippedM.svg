@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31.368" height="41.368" viewBox="0 0 41.368 41.368">
+  <path d="M10 10 L90 90 M90 10 L10 90"/>
+  <g id="Menu" transform="translate(0 19.977) rotate(-45)">
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="11.252" height="11.252" transform="translate(0 19)"/>
+    <rect id="Rectangle_9" data-name="Rectangle 9" width="11.252" height="11.252"/>
+    <rect id="Rectangle_7" data-name="Rectangle 7" width="11.252" height="11.252" transform="translate(17 19)"/>
+    <rect id="Rectangle_8" data-name="Rectangle 8" width="11.252" height="11.252" transform="translate(17)"/>
+  </g>
+</svg>

@@ -1,0 +1,121 @@
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.jobs-list-container table th,
+.jobs-list-container table td {
+  border: 1px solid #545454 !important; /* Set the desired color */
+  padding: 8px;
+  text-align: center;
+}
+
+.centered-table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 1000px;
+  margin: 5% auto;
+}
+
+.btn-apply {
+  background-color: #27E646;
+  padding: 8px 15px !important;
+  border: none;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.jobs-list-container {
+  overflow: auto;
+  color: white;
+  background-color: #232323;
+}
+
+.jobs-list-container table {
+  width: 100%;
+}
+
+.jobs-list-container table th,
+.jobs-list-container table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+.jobs-list-container button {
+  margin-top: 10px;
+}
+
+.centered-table th,
+.centered-table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+.table-scroll {
+  max-height: 60vh;
+  overflow-y: auto;
+}
+
+@media (min-width: 992px) {
+.office, .status, .go-to-app {
+  width: 100px;
+}
+
+ .position {
+  width: 300px
+}
+}
+
+@media (min-width: 768px) {
+  .btn-apply {
+    padding: 8px 15px !important;
+  }
+
+  .position,
+  .office,
+  .status,
+  .go-to-app {
+    font-size: 0.9rem !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* tables 2 */
+
+.table-two-wrapper {
+  color: white;
+  background-color: #232323;
+}
+
+.small-columns {
+  color: white;
+  width: 50px;
+}
+
+.large-column {
+  color: white;
+  width: 150px;
+}
+
+.gta {
+  margin-top: 5% !important;
+}
+
+.of, .st {
+  width: 20px;
+}

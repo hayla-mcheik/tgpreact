@@ -1,0 +1,27 @@
+.privacy-wrapper, .privacy-wrapper h5, .privacy-wrapper h2 {
+    color: white;
+    background-color: #232323;
+}
+
+.privacy-one, .privacy-two {
+    text-align: justify;
+}
+
+.headings-policy {
+    margin-left: 5.5%
+}
+
+@media (max-width: 769px) {
+    .privacy-row {
+        max-width: 85%;
+        /* margin: 0 auto; */
+        margin: 0 5%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .headings-policy {
+        margin-left: 0;
+        margin: 0 5%;
+    }
+}

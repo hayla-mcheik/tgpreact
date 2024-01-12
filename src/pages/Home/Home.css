@@ -1,0 +1,278 @@
+.banner-home {
+  display: flex;
+  gap: 12%;
+  padding: 10%;
+  background-image: url('../../assets/BGp.svg');
+}
+
+.intro-cta {
+  text-align: start;
+  width: 70%;
+}
+
+.intro-cta > p {
+  color: #373737;
+}
+
+.logo-banner {
+  width: 90%;
+}
+
+.cta-home-banner {
+  border-radius: 0 !important;
+}
+
+.data-driven-container {
+  transform: translateY(-520px);
+}
+
+.data-driven {
+  text-transform: capitalize;
+  background-color: #5642C2;
+  color: transparent;
+  -webkit-text-stroke: 1px rgb(233, 230, 230);
+  padding: 1.5% 0;    
+}
+
+.who-we-are-section {
+  background-color: #232323;
+  height: 672px;
+  position: relative;
+  top: -7.5px;
+  display: flex;
+  align-items: center;
+  gap: 30%;
+}
+
+.who-we-are > h1 {
+  color: #ffff;
+  font-size: 5rem;
+  line-height: 1;
+}
+
+.who-we-are > h1 > span {
+  color: #00E646;
+}
+
+.who-we-are-txt {
+  color: #ffff;
+  font-weight: lighter !important;
+  font-size: 1.5rem;
+  text-align: start
+}
+
+.view-more-about > a {
+  text-decoration: none !important; 
+  color: white;
+}
+
+.view-more-about p {
+  font-size: 1rem;
+  position: relative;
+  margin-right:6px;
+
+}
+
+
+.recent-projects {
+  text-align: left;
+}
+
+.recent-project-p {
+  text-align: justify;
+}
+
+.h3-recent {
+  text-align: left;
+}
+
+
+
+.recent-pro {
+  margin: 2% 17%;
+  text-align: justify;
+}
+
+.full-img-recent-project {
+  width: 1722px;
+  height: 782px;
+}
+
+.subtitle-full-img {
+  opacity: 80%;
+}
+
+
+.track {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 10s linear infinite;
+}
+
+.marquee {
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 135px;
+  overflow-x: hidden;
+}
+
+
+
+/* FADE */
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 35%;
+  position: relative;
+  top: -630px;
+  left: 580px;
+}
+
+.fade-in.fade-in-visible {
+  opacity: 1;
+  position: relative;
+  width: 100px;
+}
+
+.case-studies {
+  text-align: start;
+}
+
+.c-s {
+  text-align: start !important;
+}
+
+.recent-case-studies {
+ background-color: #5642C2;
+}
+
+
+
+@media (max-width: 768px) {
+  .banner-home {
+      flex-direction: column;
+  }
+
+  .who-we-are-section {
+      height: 800px;
+      flex-direction: column;
+      gap: 10%;
+  }
+
+  .color-break-about h2 {
+    color: #fff!important;
+    font-size: 50px !important;
+    font-weight: 800 !important;
+  }
+
+  /* .who-we-are {
+    color: #fff!important;
+    font-size: 50px !important;
+    font-weight: 800 !important;
+  } */
+
+  .who-we-are-txt {
+      color: #ffff;
+      font-weight: lighter !important;
+      font-size: 1rem;
+      text-align: start;
+  }
+
+  .tgp-logo {
+      margin-top: 15%;
+  }
+
+  .adventure {
+      width: 100%;
+    }
+    
+    .dubai {
+      width: 100%;
+    }
+  
+    .recent-pro {
+      margin: 0;
+    }
+
+    .full-img-recent-project {
+      width: 100%;
+    }
+  
+}
+
+
+
+.marquee {
+position: relative;
+width: 100vw;
+max-width: 100%;
+
+overflow-x: hidden;
+}
+
+.track {
+position: absolute;
+white-space: nowrap;
+will-change: transform;
+animation: marquee 32s linear infinite;
+}
+
+@keyframes marquee {
+from { transform: translateX(0); }
+to { transform: translateX(-50%); }
+}
+
+@media (max-width: 1020px) {
+.squared-line {
+  height: 282px;
+}
+.second {
+width: 42%;
+position: relative;
+top: 30px;
+right: 10px;
+}
+.speaker {
+position: absolute;
+top: -58px;
+left: 54%;
+}
+.titleQ h6 {
+transform: translateY(22px);
+}
+}
+@media screen and (min-width: 2560px) {
+.about-description{
+  max-width: 60%;
+}
+.button-black {
+  background-color: #373737;
+  color: white;
+  padding: 20px;
+}
+.button-black a {
+  font-size: 20px;
+}
+/* CSS styles to apply for devices with screen size of 2560 x 1440 or larger */
+.tgp-landing {
+  margin-top: 10%;
+  width: 70% ;
+}
+.about-description p {
+  color: white;
+  font-size: 20px;
+  line-height: 1.2;
+}
+}
+
+
+/* play button on video */
+.play-icon {
+background-color: transparent;
+}
+

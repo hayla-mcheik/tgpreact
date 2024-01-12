@@ -1,43 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="A Dubai-based, full-fledged independent agency with a passion for revolutionizing your brand’s presence with a winning strategy.">
+    <link rel="icon" href="/TGP.Logo.svg">
+    <link rel="apple-touch-icon" href="/TGP.Logo.svg">
+    <title>Dubai's Best Boutique Marketing Agency.</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/css/video-react.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="assets/font/bw-modelica-ss02-extrabold-expanded.ttf" rel="stylesheet">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XH66CBNZTZ"></script>
+    <script>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        window.dataLayer = window.dataLayer || [];
+        gtag("js", new Date);
+        gtag("config", "G-XH66CBNZTZ");
+    </script>
+    <script src="assets/gsap/gsap.min.js"></script>
+    <script src="assets/gsap/ScrollTrigger.min.js"></script>
+    <script src="assets/gsap/CustomEase.min.js"></script>
+    <script src="assets/gsap/Draggable.min.js"></script>
+    <script src="assets/gsap/EasePack.min.js"></script>
+    <script src="assets/gsap/Observer.min.js"></script>
+    <script src="assets/gsap/ScrollToPlugin.min.js"></script>
+    <style>
+        body {
+            overflow-x: hidden;
+            background-image: url(assets/img/goimage/BGp.png);
+        }
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
+        .slick-next:before, .slick-prev:before {
+            color: transparent !important;
+        }
+
+        .video-react .video-react-big-play-button {
+            display: none !important;
+        }
+
+        .slick-prev {
+            background-image: url(assets/img/goimage/left.svg) !important;
+            width: 55px !important;
+            height: 60px !important;
+            filter: brightness(.5);
+        }
+
+        .slick-next {
+            background-image: url(assets/img/goimage/right.svg) !important;
+            width: 55px !important;
+            height: 60px !important;
+            filter: brightness(.5);
+        }
+
+        .swiper-button-prev:after {
+            background-image: url(assets/img/goimage/left.svg);
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-button-next:after {
+            background-image: url(assets/img/goimage/right.svg);
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-button-next, .swiper-button-prev {
+            color: transparent !important;
+        }
+
+        @media (min-width: 1200px) {
+            .img-home-banner {
+                width: 50% !important;
+            }
+        }
+
+        .chatbot {
+            display: none;
+        }
+
+        .swiper-button-next:after, .swiper-button-prev:after {
+            font-size: 67px !important;
+            padding-left: 10px !important;
+        }
+
+        .video .col-project-desc h2 {
+            margin-top: .5% !important;
+            margin-bottom: .5% !important;
+        }
+
+        .video-player video {
+            width: 100%;
+        }
+
+        .tawk-button:not(:disabled) {
+            cursor: none !important;
+        }
+
+        .list-data-img {
+            background-image: url(assets/img/goimage/listdata.png);
+            background-size: cover;
+            width: 100%;
+            height: 70vh;
+        }
+
+        body::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        body::-webkit-scrollbar-track {
+            background: #fff;
+        }
+
+        body::-webkit-scrollbar-thumb {
+            background-color: #27e646;
+            border-radius: 0;
+            border: 2px solid #27e646;
+        }
+    </style>
+    <script defer="defer" src="/static/js/main.b492ea4e.js"></script>
+    <link href="/static/css/main.5208a392.css" rel="stylesheet">
+</head>
+<body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+    <div id="root">
+        <div class="tawk-min-container" style="display:none!important">
+            <button type="button" class="tawk-custom-color tawk-custom-border-color tawk-button tawk-button-circle tawk-button-large" tabindex="0" style="bottom:0;left:0;position:absolute;z-index:1000;border:0">
+                <div isroundwidget="true">
+                    <div><img src="chevronUp.svg"></div>
+                </div>
+            </button>
+        </div>
+    </div>
+    <script src="assets/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TimelineMax.min.js"></script>
+    <script src="https://unpkg.com/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {};
+        var Tawk_LoadStart = new Date();
+        !function () {
+            var e = document.createElement("script"), t = document.getElementsByTagName("script")[0];
+            e.async = !0, e.src = "https://embed.tawk.to/646207e374285f0ec46b8293/1h0fetk76", e.charset = "UTF-8", e.setAttribute("crossorigin", "*"), t.parentNode.insertBefore(e, t)
+        }()
+    </script>
+    <script>
+        const tawkButton = document.querySelector(".tawk-button");
+        tawkButton && (tawkButton.style.cursor = "none");
+    </script>
+</body>
 </html>

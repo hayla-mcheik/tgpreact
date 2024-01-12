@@ -1,0 +1,28 @@
+<svg id="Play" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="69.722" height="72.721" viewBox="0 0 69.722 72.721">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_3851" data-name="Path 3851" d="M.644,48.447V24.275A23.609,23.609,0,0,1,35.968,3.756L57.159,15.842a23.622,23.622,0,0,1,0,41.037L35.967,68.965A23.608,23.608,0,0,1,.644,48.447M24.274,0A24.3,24.3,0,0,0,0,24.275V48.447A24.3,24.3,0,0,0,24.274,72.721h0a24.28,24.28,0,0,0,12.012-3.2L57.479,57.439a24.265,24.265,0,0,0,0-42.157L36.287,3.2A24.289,24.289,0,0,0,24.274,0Z" fill="#00e546"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_3852" data-name="Path 3852" d="M29.333,66.818V42.646A13.29,13.29,0,0,1,49.226,31.09L70.418,43.176a13.3,13.3,0,0,1,0,23.111L49.226,78.374A13.29,13.29,0,0,1,29.333,66.818M28.259,42.646V66.818A14.4,14.4,0,0,0,42.644,81.2h0a14.382,14.382,0,0,0,7.113-1.9L70.951,67.22a14.376,14.376,0,0,0,0-24.977L49.758,30.158a14.364,14.364,0,0,0-21.5,12.488" transform="translate(-28.259 -28.26)" fill="#00e546"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Path_3853" data-name="Path 3853" d="M51.449,57.721V81.893a6.262,6.262,0,0,0,9.364,5.44L82.005,75.247a6.262,6.262,0,0,0,0-10.879L60.813,52.282a6.249,6.249,0,0,0-9.364,5.44" transform="translate(-51.449 -51.45)" fill="#00e546"/>
+    </clipPath>
+  </defs>
+  <g id="Group_109" data-name="Group 109">
+    <g id="Group_108" data-name="Group 108" clip-path="url(#clip-path)">
+      <rect id="Rectangle_71" data-name="Rectangle 71" width="69.722" height="72.721" fill="#00e546"/>
+    </g>
+  </g>
+  <g id="Group_111" data-name="Group 111" transform="translate(9.888 9.889)">
+    <g id="Group_110" data-name="Group 110" clip-path="url(#clip-path-2)">
+      <rect id="Rectangle_72" data-name="Rectangle 72" width="49.945" height="52.944" transform="translate(0 0)" fill="#00e546"/>
+    </g>
+  </g>
+  <g id="Group_113" data-name="Group 113" transform="translate(18.003 18.003)">
+    <g id="Group_112" data-name="Group 112" clip-path="url(#clip-path-3)">
+      <rect id="Rectangle_73" data-name="Rectangle 73" width="34.769" height="38.264" transform="translate(0 0)" fill="#00e546"/>
+    </g>
+  </g>
+</svg>
